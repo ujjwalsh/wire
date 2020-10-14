@@ -14,7 +14,9 @@
 
 language: go
 go_import_path: github.com/google/wire
-
+arch:
+  - amd64
+  - ppc64le
 before_install:
   # The Bash that comes with OS X is ancient.
   # grep is similar: it's not GNU grep, which means commands aren't portable.
